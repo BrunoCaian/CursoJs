@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+      var ano_atual = window.prompt("Digite o ano atual:")
+      var ano_nasc = window.prompt("Digite o ano em que você nasceu?")
+      var idade = ano_atual - ano_nasc
+      document.write(`idade ${idade} Anos!<br/>`) 
+      idade >= 18 ? document.write("Você está apto para tirar sua carteira de motorirsta!"): document.write("Você ainda não está apto para tirar sua carteira motorista")
+    </script>
+</body>
+</html>
