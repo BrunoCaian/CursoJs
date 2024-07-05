@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0, 0, 255, 0.616);
+    font: normal 15pt Arial;
+}
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 380px;
+    margin: auto;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+div#hora {
+    text-align: center;
+}
+
+div img {
+    display: none;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
